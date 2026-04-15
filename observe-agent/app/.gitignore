@@ -1,0 +1,27 @@
+# Environment files
+.env
+.env.*
+*.env
+
+# Data files (common formats)
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.db
+*.sqlite3
+*.log
+*.json
+
+
+
+# Chroma / vector DB (you use this)
+chroma_db/
+*.chroma/
+
+CLAUDE.md
+# Temporary / cache
+__pycache__/
+*.pyc
+.cache/
